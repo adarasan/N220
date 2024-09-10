@@ -19,3 +19,36 @@ function sayHelloWorld() {
 }
 
 sayHelloWorld();
+
+
+
+
+functionsayFavoriteBand(bandName) {
+
+
+    document.getElementById("favBand").innerHTML += bandName + "<br/>"
+
+
+}
+
+sayFovriteBand("Three Days Grace");
+sayFovriteBand("Maroon 5");
+
+
+
+
+
+function sayMyName(myName){
+
+
+    console.log("myName");
+}
+
+
+sayMyName("Say my name");
+
+sayMyName("say my name");
+
+sayMyName("If no one is around you ");
+
+

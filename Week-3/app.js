@@ -162,6 +162,37 @@ function wizard (name, occupation){
 function addItem(){
 
     const newItem =prompt("Add Item:");
-    
+
     console.log(newItem);
+}
+
+
+
+
+
+
+function returnValue(color){
+
+
+
+return color;
+
+}
+
+
+
+alert(returnValue("blue"));
+
+function calcCircArea(radius){
+
+    return 2 * Math.PI * radius;
+
+    document.getElementById("useOne").innerHTML +=
+    calcCircArea(2);
+
+
+    document.getElementById("useTwo").innerHTML +=
+    calcCircArea(4);
+
+
 }

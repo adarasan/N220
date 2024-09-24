@@ -8,6 +8,16 @@ function addNums() {
 
   var numberInput3 = parseFloat(document.getElementById("nInput").value);
 
+  console.log ("Text Input Field: " + textInput2 + "(" + typeof(textInput2 + ")");
+
+  console.log(
+    "Number Input Field: " + numberInput + "(" + typeof(numberInput2) + ")"
+  );
+
+  console.log(
+    "Number Input Field: " + numberInput + "(" + typeof(numberInput3) + ")"
+  );
+
   document.getElementById("pfResults").innerHTML =
     "Float Results: " + textInput2(1 + numberInput2 * numberInput3);
 }

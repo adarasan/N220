@@ -64,6 +64,13 @@ function addNewStudent() {
   }
 }
 
+// fuction to remove students
+
+function removeStudent() {
+  classroom.students.pop();
+  classroom.showStudents();
+}
+
 /**  This can replace the  "this. students. for each loop"
  *
  * for (let i = 0; i < classroom.students.length - 1; i++){

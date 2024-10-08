@@ -2,7 +2,10 @@ const trackList = [];
 
 function addItem() {
   // clear the text
-  document.querySelector("#summary").innerHTML = ``;
+
+  document.querySelector("#summary1").innerHTML = ``;
+  document.querySelector("#summary2").innerHTML = ``;
+  document.querySelector("#summary3").innerHTML = ``;
 
   document.querySelector("#list").innerHTML = ``;
 

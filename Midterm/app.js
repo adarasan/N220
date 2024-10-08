@@ -27,11 +27,11 @@ function summarizeList() {
     totalItem += trackList[i];
   }
 
-  document.getElementById("summary").innerHTML += totalItem.length + "<br />";
+  //document.getElementById("summary").innerHTML += totalItem.length + "<br />";
 
-  document.getElementById("summary").innerHTML += trackList.length + "<br />";
+  document.getElementById("summary1").innerHTML += trackList.length + "<br />";
 
-  document.getElementById("summary").innerHTML += trackList[0] + "<br />";
+  document.getElementById("summary2").innerHTML += trackList[0] + "<br />";
 
-  document.getElementById("summary").innerHTML += trackList.length - 1;
+  document.getElementById("summary3").innerHTML += trackList.length - 1;
 }

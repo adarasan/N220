@@ -3,6 +3,7 @@ const trackList = [];
 function addItem() {
   // clear the text
   document.querySelector("#summary").innerHTML = ``;
+
   document.querySelector("#list").innerHTML = ``;
 
   // get the value from the input and add it to a variable.

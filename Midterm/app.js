@@ -3,13 +3,14 @@ const trackList = [];
 function addItem() {
   // clear the text
 
-  document.querySelector("#summary1").innerHTML = ``;
-  document.querySelector("#summary2").innerHTML = ``;
-  document.querySelector("#summary3").innerHTML = ``;
+  document.querySelector("#item").innerHTML = ``;
+  // document.querySelector("#s").innerHTML = ``;
+  // document.querySelector("#summary3").innerHTML = ``;
 
   document.querySelector("#list").innerHTML = ``;
 
   // get the value from the input and add it to a variable.
+
   const newAddItem = parseFloat(document.getElementById("item").innerHTML);
 
   // then whats inside the variable gets put inside the array.

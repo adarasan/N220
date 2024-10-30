@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Your Adventure</title>
+  </head>
+  <body>
+    <h1>What would you like to do?</h1>
+    <div class="choices">
+      <button onclick="choosePrimaryOption('vacation')">
+        Go on a Vacation
+      </button>
+      <button onclick="choosePrimaryOption('concert')">Attend a Concert</button>
+    </div>
+
+    <div id="subChoices" style="display: none; margin-top: 20px">
+      <h2 id="subChoiceTitle"></h2>
+      <div id="subOptions" class="choices"></div>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

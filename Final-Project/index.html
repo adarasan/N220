@@ -3,18 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>N220 Final Project</title>
+    <title>Final Project</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Final Project - Task Unknown</h1>
+    <!-- Navigation Menu -->
+    <nav>
+      <button id="profileTab">Profile</button>
+      <button id="settingsTab">Settings</button>
+      <button id="aboutTab">About</button>
+    </nav>
 
-    <input type="text" />
+    <!-- Content Section -->
+    <section id="content">
+      <h1>Welcome! You're on Track.</h1>
+    </section>
 
-    <button></button>
-    <nav></nav>
+    <!-- Login Form -->
+    <div id="loginForm">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Enter your username" />
+      <input type="password" id="password" placeholder="Enter your password" />
+      <button id="loginBtn">Login</button>
+      <div id="loginError"></div>
+    </div>
 
-    <section id=""></section>
-    <div></div>
+    <!-- Task Section -->
+    <div id="taskSection">
+      <h2>Task Manager</h2>
+      <div id="taskControls">
+        <button id="logoutBtn">Log Out</button>
+      </div>
+      <input type="text" id="taskInput" placeholder="Enter a task" />
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
 
     <script src="app.js"></script>
   </body>
